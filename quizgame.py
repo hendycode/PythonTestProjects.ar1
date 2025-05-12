@@ -2,11 +2,13 @@ print("Welcome to my web development quiz")
 
 playing = input("Do you want to play? ").lower()
 
+
 if playing != "yes":
     quit()
 
 print("Alright let's play :)")
 score = 0
+
 
 question = input("What does CPU stand for? ").lower()
 if question == "central processing unit":
