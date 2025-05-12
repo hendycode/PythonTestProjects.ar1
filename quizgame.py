@@ -36,5 +36,6 @@ if question == "power supply unit":
 else:
     print("That's incorrect, please try again")
 
+
 print("You got " + str(score) + " questions correct!")
 print("You got " + str((score/4) * 100) + " %")
