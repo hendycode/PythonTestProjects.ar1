@@ -1,6 +1,7 @@
 import random
 
-top_range = input("Type a number: ")
+top_range = input('Type a number: ')
+
 
 if top_range.isdigit():
     top_range = int(top_range)
