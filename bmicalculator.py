@@ -1,7 +1,7 @@
-your_weight = float(input("Please input your Weight: "))
-your_height = float(input("Please input your Height (M): "))
+your_weighttt = float(input("Please input your Weight: "))
+your_heighttt = float(input("Please input your Height (M): "))
 
-bmi = your_weight / (your_height ** 2)
+bmi = your_weighttt / (your_heighttt ** 2)
 
 if bmi > 30 :
     print(f"Your BMI is {bmi:.4}.\nYou are obese.")
